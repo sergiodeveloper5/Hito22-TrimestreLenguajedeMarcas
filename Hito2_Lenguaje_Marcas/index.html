@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Informe de Pedidos y Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="clientesContainer">...</div>
+        <div id="pedidosContainer">...</div>
+        <div id="productosPeriodoContainer">...</div>
+        <div id="facturaContainer"></div> 
+    </div>
+    
+    <script>
+    fetch('Pedidos.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("HTTP error " + response.status);
+            }
+            return response.json();
+        })
+        .then(json => {
+            cargarDatos(json);
+        })
+        .catch(function() {
+            console.log("Hubo un problema con la petición Fetch.");
+        });
+
+    function cargarDatos(data) {
+        mostrarPedidos(data);
+        mostrarClientes(data);
+        mostrarProductosPorPeriodo(data, '2021', 'Q1');
+        mostrarProductosPorPeriodo(data, '2022', 'Q4');
+        mostrarFactura(data);
+    }
+
+    function mostrarPedidos(data) {
+        let html = '<h2>Pedidos</h2>';
+        Object.keys(data).forEach(año => {
+            Object.keys(data[año]).forEach(trimestre => {
+                data[año][trimestre].forEach(cliente => {
+                    cliente.pedidos.forEach(pedido => {
+                        html += `<div>Pedido Nº: ${pedido.numeroPedido}<br>
+                                Fecha Compra: ${pedido.fechaCompra}<br>
+                                Total Factura: ${pedido.totalFactura}€<br>
+                                Productos: <ul>`;
+                        pedido.productos.forEach(producto => {
+                            html += `<li>${producto.nombreProducto} (Unidades: ${producto.unidades})</li>`;
+                        });
+                        html += `</ul></div>`;
+                    });
+                });
+            });
+        });
+        document.getElementById('pedidosContainer').innerHTML = html;
+    }
+
+    function mostrarClientes(data) {
+        let html = '<h2>Clientes</h2>';
+        Object.keys(data).forEach(año => {
+            Object.keys(data[año]).forEach(trimestre => {
+                data[año][trimestre].forEach(cliente => {
+                    html += `<div><strong>${cliente.cliente.nombre} ${cliente.cliente.apellidos}</strong><br>
+                            Teléfono: ${cliente.cliente.telefono}<br>
+                            Email: ${cliente.cliente.correoElectronico}<br>
+                            Dirección: ${cliente.cliente.direccion.calle}, ${cliente.cliente.direccion.ciudad}<br></div>`;
+                });
+            });
+        });
+        document.getElementById('clientesContainer').innerHTML = html;
+    }
+
+    function mostrarProductosPorPeriodo(data, año, trimestre) {
+        let html = `<h2>Productos ${año} - ${trimestre}</h2>`;
+        (data[año][trimestre] || []).forEach(cliente => {
+            cliente.pedidos.forEach(pedido => {
+                pedido.productos.forEach(producto => {
+                    html += `<div>${producto.nombreProducto} - Referencia: ${producto.referencia}, Unidades: ${producto.unidades}</div>`;
+                });
+            });
+        });
+        document.getElementById('productosPeriodoContainer').innerHTML += html;
+    }
+    
+    function mostrarFactura(data) {
+        let html = '<h2>Facturas</h2>';
+        Object.keys(data).forEach(año => {
+            Object.keys(data[año]).forEach(trimestre => {
+                data[año][trimestre].forEach(cliente => {
+                    cliente.pedidos.forEach(pedido => {
+                        html += `<div>Pedido Nº: ${pedido.numeroPedido}<br>
+                                Fecha Compra: ${pedido.fechaCompra}<br>
+                                Total Factura: ${pedido.totalFactura}€<br>
+                                Productos: <ul>`;
+                        pedido.productos.forEach(producto => {
+                            html += `<li>${producto.nombreProducto} (Unidades: ${producto.unidades})</li>`;
+                        });
+                        html += `</ul></div>`;
+                    });
+                });
+            });
+        });
+        document.getElementById('facturaContainer').innerHTML = html;
+    }
+
+
+    </script>
+</body>
+</html>

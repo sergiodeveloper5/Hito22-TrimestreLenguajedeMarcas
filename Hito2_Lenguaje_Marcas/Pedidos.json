@@ -1,0 +1,2930 @@
+{
+  "2021": {
+    "Q1": [
+      {
+        "cliente": {
+          "nombre": "Ana Torres",
+          "apellidos": "García Ruiz",
+          "telefono": "612345678",
+          "direccion": {
+            "calle": "Av. del Libertador 750",
+            "ciudad": "Madrid",
+            "codigoPostal": "28013",
+            "provincia": "Madrid"
+          },
+          "correoElectronico": "ana.torres@example.com",
+          "fechaInclusion": "2020-06-15"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10001",
+            "fechaCompra": "2021-02-10",
+            "fechaEntrega": "2021-02-15",
+            "totalFactura": 120.90,
+            "productos": [
+              {
+                "nombreProducto": "Libro de Cocina",
+                "referencia": "LB1234",
+                "precio": 35.50,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Cuchillo de Chef",
+                "referencia": "CU5678",
+                "precio": 49.90,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Patricia",
+          "apellidos": "Fernández Núñez",
+          "telefono": "656789012",
+          "direccion": {
+            "calle": "Avenida de América 45",
+            "ciudad": "Valencia",
+            "codigoPostal": "46004",
+            "provincia": "Valencia"
+          },
+          "correoElectronico": "patricia.fernandez@example.com",
+          "fechaInclusion": "2021-02-09"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10005",
+            "fechaCompra": "2021-05-05",
+            "fechaEntrega": "2021-05-10",
+            "totalFactura": 130.75,
+            "productos": [
+              {
+                "nombreProducto": "Báscula de Cocina Digital",
+                "referencia": "BCD2345",
+                "precio": 20.75,
+                "unidades": 3
+              },
+              {
+                "nombreProducto": "Mandolina Ajustable",
+                "referencia": "MA9876",
+                "precio": 69.25,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Laura Martínez",
+          "apellidos": "Sánchez Gómez",
+          "telefono": "654321098",
+          "direccion": {
+            "calle": "Calle Nueva 24",
+            "ciudad": "Valencia",
+            "codigoPostal": "46015",
+            "provincia": "Valencia"
+          },
+          "correoElectronico": "laura.martinez@example.com",
+          "fechaInclusion": "2019-07-21"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10003",
+            "fechaCompra": "2021-04-12",
+            "fechaEntrega": "2021-04-17",
+            "totalFactura": 178.75,
+            "productos": [
+              {
+                "nombreProducto": "Mochila de viaje",
+                "referencia": "MV3456",
+                "precio": 89.95,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Botella de agua reutilizable",
+                "referencia": "BR7890",
+                "precio": 29.95,
+                "unidades": 2
+              }
+            ]
+          }
+        ]
+        },
+        {
+          "cliente": {
+            "nombre": "Carlos",
+            "apellidos": "Jiménez Rojas",
+            "telefono": "698234567",
+            "direccion": {
+              "calle": "Calle de la Luz 45",
+              "ciudad": "Valencia",
+              "codigoPostal": "46003",
+              "provincia": "Valencia"
+            },
+            "correoElectronico": "carlos.jimenez@example.com",
+            "fechaInclusion": "2019-09-22"
+          },
+          "pedidos": [
+            {
+              "numeroPedido": "10012",
+              "fechaCompra": "2021-08-10",
+              "fechaEntrega": "2021-08-14",
+              "totalFactura": 100.50,
+              "productos": [
+                {
+                  "nombreProducto": "Libreta A5 Cuadriculada",
+                  "referencia": "LAC789",
+                  "precio": 12.50,
+                  "unidades": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cliente": {
+            "nombre": "Antonio",
+            "apellidos": "Morales Castillo",
+            "telefono": "667890123",
+            "direccion": {
+              "calle": "Calle Nueva 67",
+              "ciudad": "Málaga",
+              "codigoPostal": "29005",
+              "provincia": "Málaga"
+            },
+            "correoElectronico": "antonio.morales@example.com",
+            "fechaInclusion": "2020-10-15"
+          },
+          "pedidos": [
+            {
+              "numeroPedido": "10006",
+              "fechaCompra": "2021-06-20",
+              "fechaEntrega": "2021-06-25",
+              "totalFactura": 89.90,
+              "productos": [
+                {
+                  "nombreProducto": "Tetera de Hierro Fundido",
+                  "referencia": "THF3210",
+                  "precio": 45.95,
+                  "unidades": 1
+                },
+                {
+                  "nombreProducto": "Taza de Cerámica",
+                  "referencia": "TC7890",
+                  "precio": 14.95,
+                  "unidades": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cliente": {
+            "nombre": "Fernando",
+            "apellidos": "Gutiérrez Lobo",
+            "telefono": "655443322",
+            "direccion": {
+              "calle": "Plaza Mayor 44",
+              "ciudad": "Zaragoza",
+              "codigoPostal": "50001",
+              "provincia": "Zaragoza"
+            },
+            "correoElectronico": "fernando.gutierrez@example.com",
+            "fechaInclusion": "2021-08-15"
+          },
+          "pedidos": [
+            {
+              "numeroPedido": "20017",
+              "fechaCompra": "2021-09-05",
+              "fechaEntrega": "2021-09-10",
+              "totalFactura": 59.70,
+              "productos": [
+                {
+                  "nombreProducto": "Estuche de lápices",
+                  "referencia": "EL1234",
+                  "precio": 12.95,
+                  "unidades": 2
+                },
+                {
+                  "nombreProducto": "Agenda 2022",
+                  "referencia": "AG5678",
+                  "precio": 33.80,
+                  "unidades": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cliente": {
+            "nombre": "Gabriela",
+            "apellidos": "Sánchez Molina",
+            "telefono": "622115533",
+            "direccion": {
+              "calle": "Calle Nueva 12",
+              "ciudad": "Alicante",
+              "codigoPostal": "03002",
+              "provincia": "Alicante"
+            },
+            "correoElectronico": "gabriela.sanchez@example.com",
+            "fechaInclusion": "2021-11-02"
+          },
+          "pedidos": [
+            {
+              "numeroPedido": "20018",
+              "fechaCompra": "2021-12-01",
+              "fechaEntrega": "2021-12-06",
+              "totalFactura": 105.95,
+              "productos": [
+                {
+                  "nombreProducto": "Pack de bolígrafos",
+                  "referencia": "PB1234",
+                  "precio": 7.95,
+                  "unidades": 3
+                },
+                {
+                  "nombreProducto": "Mochila portátil",
+                  "referencia": "MP5678",
+                  "precio": 82.05,
+                  "unidades": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cliente": {
+            "nombre": "Héctor",
+            "apellidos": "Jiménez Ortega",
+            "telefono": "611223344",
+            "direccion": {
+              "calle": "Calle del Mar 28",
+              "ciudad": "Málaga",
+              "codigoPostal": "29002",
+              "provincia": "Málaga"
+            },
+            "correoElectronico": "hector.jimenez@example.com",
+            "fechaInclusion": "2021-01-07"
+          },
+          "pedidos": [
+            {
+              "numeroPedido": "20019",
+              "fechaCompra": "2021-02-03",
+              "fechaEntrega": "2021-02-08",
+              "totalFactura": 134.90,
+              "productos": [
+                {
+                  "nombreProducto": "Cámara digital compacta",
+                  "referencia": "CD1234",
+                  "precio": 134.90,
+                  "unidades": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cliente": {
+            "nombre": "Isabel",
+            "apellidos": "Fernández Vega",
+            "telefono": "657891234",
+            "direccion": {
+              "calle": "Avenida de América 32",
+              "ciudad": "Granada",
+              "codigoPostal": "18006",
+              "provincia": "Granada"
+            },
+            "correoElectronico": "isabel.fernandez@example.com",
+            "fechaInclusion": "2021-01-05"
+          },
+          "pedidos": [
+            {
+              "numeroPedido": "10013",
+              "fechaCompra": "2021-09-05",
+              "fechaEntrega": "2021-09-10",
+              "totalFactura": 210.00,
+              "productos": [
+                {
+                  "nombreProducto": "Mochila de Senderismo 40L",
+                  "referencia": "MSD1012",
+                  "precio": 70.00,
+                  "unidades": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cliente": {
+            "nombre": "Elena",
+            "apellidos": "Gutiérrez Lobo",
+            "telefono": "645678123",
+            "direccion": {
+              "calle": "Plaza Mayor 23",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41001",
+              "provincia": "Sevilla"
+            },
+            "correoElectronico": "elena.gutierrez@example.com",
+            "fechaInclusion": "2020-08-10"
+          },
+          "pedidos": [
+            {
+              "numeroPedido": "10011",
+              "fechaCompra": "2021-07-15",
+              "fechaEntrega": "2021-07-20",
+              "totalFactura": 153.75,
+              "productos": [
+                {
+                  "nombreProducto": "Pack de Calcetines de Algodón",
+                  "referencia": "PCA123",
+                  "precio": 23.95,
+                  "unidades": 3
+                },
+                {
+                  "nombreProducto": "Paraguas Automático",
+                  "referencia": "PAU456",
+                  "precio": 82.85,
+                  "unidades": 1
+                }
+              ]
+            }
+          ]
+        }
+      
+    ],
+    "Q2": [
+      {
+      "cliente": {
+        "nombre": "Laura Martínez",
+        "apellidos": "Sánchez Gómez",
+        "telefono": "654321098",
+        "direccion": {
+          "calle": "Calle Nueva 24",
+          "ciudad": "Valencia",
+          "codigoPostal": "46015",
+          "provincia": "Valencia"
+        },
+        "correoElectronico": "laura.martinez@example.com",
+        "fechaInclusion": "2019-07-21"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10003",
+          "fechaCompra": "2021-04-12",
+          "fechaEntrega": "2021-04-17",
+          "totalFactura": 178.75,
+          "productos": [
+            {
+              "nombreProducto": "Mochila de viaje",
+              "referencia": "MV3456",
+              "precio": 89.95,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Botella de agua reutilizable",
+              "referencia": "BR7890",
+              "precio": 29.95,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+      },
+      {
+        "cliente": {
+          "nombre": "Marta",
+          "apellidos": "Sánchez López",
+          "telefono": "612345789",
+          "direccion": {
+            "calle": "Ronda de Segovia 33",
+            "ciudad": "Zaragoza",
+            "codigoPostal": "50004",
+            "provincia": "Zaragoza"
+          },
+          "correoElectronico": "marta.sanchez@example.com",
+          "fechaInclusion": "2020-12-01"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10015",
+            "fechaCompra": "2021-11-20",
+            "fechaEntrega": "2021-11-25",
+            "totalFactura": 76.50,
+            "productos": [
+              {
+                "nombreProducto": "Cargador Portátil USB",
+                "referencia": "CPU123",
+                "precio": 25.50,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Auriculares Inalámbricos",
+                "referencia": "AI789",
+                "precio": 25.50,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Antonio",
+          "apellidos": "López Ruiz",
+          "telefono": "633445566",
+          "direccion": {
+            "calle": "Avenida de Andalucía 28",
+            "ciudad": "Málaga",
+            "codigoPostal": "29007",
+            "provincia": "Málaga"
+          },
+          "correoElectronico": "antonio.lopez@example.com",
+          "fechaInclusion": "2019-04-30"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "20007",
+            "fechaCompra": "2021-05-05",
+            "fechaEntrega": "2021-05-10",
+            "totalFactura": 299.99,
+            "productos": [
+              {
+                "nombreProducto": "Smartwatch deportivo",
+                "referencia": "SD2345",
+                "precio": 199.99,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Cinta de correr plegable",
+                "referencia": "CC6789",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Carlos Navarro",
+          "apellidos": "Méndez López",
+          "telefono": "698765432",
+          "direccion": {
+            "calle": "C/ Falsa 123",
+            "ciudad": "Barcelona",
+            "codigoPostal": "08004",
+            "provincia": "Barcelona"
+          },
+          "correoElectronico": "carlos.navarro@example.com",
+          "fechaInclusion": "2019-11-23"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10002",
+            "fechaCompra": "2021-05-05",
+            "fechaEntrega": "2021-05-10",
+            "totalFactura": 85.95,
+            "productos": [
+              {
+                "nombreProducto": "Camiseta algodón",
+                "referencia": "CA7890",
+                "precio": 19.95,
+                "unidades": 3
+              },
+              {
+                "nombreProducto": "Jeans",
+                "referencia": "JE1122",
+                "precio": 45.00,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Elena",
+          "apellidos": "Gutiérrez Lobo",
+          "telefono": "645678123",
+          "direccion": {
+            "calle": "Plaza Mayor 23",
+            "ciudad": "Sevilla",
+            "codigoPostal": "41001",
+            "provincia": "Sevilla"
+          },
+          "correoElectronico": "elena.gutierrez@example.com",
+          "fechaInclusion": "2020-08-10"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10011",
+            "fechaCompra": "2021-07-15",
+            "fechaEntrega": "2021-07-20",
+            "totalFactura": 153.75,
+            "productos": [
+              {
+                "nombreProducto": "Pack de Calcetines de Algodón",
+                "referencia": "PCA123",
+                "precio": 23.95,
+                "unidades": 3
+              },
+              {
+                "nombreProducto": "Paraguas Automático",
+                "referencia": "PAU456",
+                "precio": 82.85,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Carlos",
+          "apellidos": "González Pérez",
+          "telefono": "625789123",
+          "direccion": {
+            "calle": "Paseo de Gracia 60",
+            "ciudad": "Barcelona",
+            "codigoPostal": "08007",
+            "provincia": "Barcelona"
+          },
+          "correoElectronico": "carlos.gonzalez@example.com",
+          "fechaInclusion": "2020-07-20"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10002",
+            "fechaCompra": "2021-03-05",
+            "fechaEntrega": "2021-03-10",
+            "totalFactura": 150.00,
+            "productos": [
+              {
+                "nombreProducto": "Robot de Cocina",
+                "referencia": "RC9876",
+                "precio": 100.00,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Espátula de Silicona",
+                "referencia": "ES1234",
+                "precio": 25.00,
+                "unidades": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Sara",
+          "apellidos": "López Ruiz",
+          "telefono": "665544337",
+          "direccion": {
+            "calle": "Calle de la Industria 10",
+            "ciudad": "Gijón",
+            "codigoPostal": "33201",
+            "provincia": "Asturias"
+          },
+          "correoElectronico": "sara.lopez@example.com",
+          "fechaInclusion": "2022-05-10"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "50025",
+            "fechaCompra": "2022-05-15",
+            "fechaEntrega": "2022-05-20",
+            "totalFactura": 150.00,
+            "productos": [
+              {
+                "nombreProducto": "Cámara digital",
+                "referencia": "CD9876",
+                "precio": 150.00,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+                  {
+                    "cliente": {
+                      "nombre": "Fernando",
+                      "apellidos": "Iglesias Pardo",
+                      "telefono": "677889900",
+                      "direccion": {
+                        "calle": "Gran Vía 42",
+                        "ciudad": "Madrid",
+                        "codigoPostal": "28013",
+                        "provincia": "Madrid"
+                      },
+                      "correoElectronico": "fernando.iglesias@example.com",
+                      "fechaInclusion": "2021-09-05"
+                    },
+                    "pedidos": [
+                      {
+                        "numeroPedido": "40016",
+                        "fechaCompra": "2021-04-18",
+                        "fechaEntrega": "2021-04-23",
+                        "totalFactura": 120.75,
+                        "productos": [
+                          {
+                            "nombreProducto": "Libro 'Historia del Arte'",
+                            "referencia": "LA1234",
+                            "precio": 50.25,
+                            "unidades": 1
+                          },
+                          {
+                            "nombreProducto": "Cuaderno dibujo A4",
+                            "referencia": "CD4567",
+                            "precio": 10.50,
+                            "unidades": 3
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                    {
+                      "cliente": {
+                        "nombre": "Beatriz",
+                        "apellidos": "San Juan Méndez",
+                        "telefono": "688776655",
+                        "direccion": {
+                          "calle": "Calle Mayor 56",
+                          "ciudad": "Zaragoza",
+                          "codigoPostal": "50001",
+                          "provincia": "Zaragoza"
+                        },
+                        "correoElectronico": "beatriz.sanjuan@example.com",
+                        "fechaInclusion": "2021-10-15"
+                      },
+                      "pedidos": [
+                        {
+                          "numeroPedido": "40017",
+                          "fechaCompra": "2021-05-09",
+                          "fechaEntrega": "2021-05-14",
+                          "totalFactura": 89.99,
+                          "productos": [
+                            {
+                              "nombreProducto": "Juego de mesa familiar",
+                              "referencia": "JM2345",
+                              "precio": 45.00,
+                              "unidades": 1
+                            },
+                            {
+                              "nombreProducto": "Puzzle 1000 piezas",
+                              "referencia": "PZ6789",
+                              "precio": 44.99,
+                              "unidades": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                      {
+                        "cliente": {
+                          "nombre": "Carlos",
+                          "apellidos": "Gutiérrez Lobo",
+                          "telefono": "699887766",
+                          "direccion": {
+                            "calle": "Avenida de la Paz 10",
+                            "ciudad": "Bilbao",
+                            "codigoPostal": "48012",
+                            "provincia": "Vizcaya"
+                          },
+                          "correoElectronico": "carlos.gutierrez@example.com",
+                          "fechaInclusion": "2021-11-20"
+                        },
+                        "pedidos": [
+                          {
+                            "numeroPedido": "40018",
+                            "fechaCompra": "2021-06-24",
+                            "fechaEntrega": "2021-06-29",
+                            "totalFactura": 150.30,
+                            "productos": [
+                              {
+                                "nombreProducto": "Altavoz Bluetooth portátil",
+                                "referencia": "AB1234",
+                                "precio": 75.15,
+                                "unidades": 1
+                              },
+                              {
+                                "nombreProducto": "Cargador inalámbrico",
+                                "referencia": "CI5678",
+                                "precio": 75.15,
+                                "unidades": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
+      
+      ],
+
+
+    
+    "Q3": [
+      {
+        "cliente": {
+          "nombre": "Javier",
+          "apellidos": "Sánchez Martín",
+          "telefono": "645678901",
+          "direccion": {
+            "calle": "Calle Falsa 123",
+            "ciudad": "Sevilla",
+            "codigoPostal": "41001",
+            "provincia": "Sevilla"
+          },
+          "correoElectronico": "javier.sanchez@example.com",
+          "fechaInclusion": "2020-08-05"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10004",
+            "fechaCompra": "2021-04-10",
+            "fechaEntrega": "2021-04-15",
+            "totalFactura": 75.90,
+            "productos": [
+              {
+                "nombreProducto": "Tabla de Cortar de Bambú",
+                "referencia": "TCB5432",
+                "precio": 25.90,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Pelador de Verduras",
+                "referencia": "PV8765",
+                "precio": 24.10,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Elena",
+          "apellidos": "Gómez Castillo",
+          "telefono": "664455667",
+          "direccion": {
+            "calle": "Plaza Mayor 15",
+            "ciudad": "Sevilla",
+            "codigoPostal": "41001",
+            "provincia": "Sevilla"
+          },
+          "correoElectronico": "elena.gomez@example.com",
+          "fechaInclusion": "2021-03-22"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "30010",
+            "fechaCompra": "2021-08-05",
+            "fechaEntrega": "2021-08-10",
+            "totalFactura": 89.70,
+            "productos": [
+              {
+                "nombreProducto": "Cuaderno A5",
+                "referencia": "CA5123",
+                "precio": 3.95,
+                "unidades": 5
+              },
+              {
+                "nombreProducto": "Pack de marcadores",
+                "referencia": "PM7891",
+                "precio": 7.50,
+                "unidades": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Ana Torres",
+          "apellidos": "García Ruiz",
+          "telefono": "612345678",
+          "direccion": {
+            "calle": "Av. del Libertador 750",
+            "ciudad": "Madrid",
+            "codigoPostal": "28013",
+            "provincia": "Madrid"
+          },
+          "correoElectronico": "ana.torres@example.com",
+          "fechaInclusion": "2020-06-15"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10001",
+            "fechaCompra": "2021-02-10",
+            "fechaEntrega": "2021-02-15",
+            "totalFactura": 120.90,
+            "productos": [
+              {
+                "nombreProducto": "Libro de Cocina",
+                "referencia": "LB1234",
+                "precio": 35.50,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Cuchillo de Chef",
+                "referencia": "CU5678",
+                "precio": 49.90,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Miguel",
+          "apellidos": "Hernández Silva",
+          "telefono": "611223344",
+          "direccion": {
+            "calle": "Calle de la Industria 12",
+            "ciudad": "Sevilla",
+            "codigoPostal": "41015",
+            "provincia": "Sevilla"
+          },
+          "correoElectronico": "miguel.hernandez@example.com",
+          "fechaInclusion": "2019-09-10"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "20005",
+            "fechaCompra": "2021-03-22",
+            "fechaEntrega": "2021-03-27",
+            "totalFactura": 230.75,
+            "productos": [
+              {
+                "nombreProducto": "Teclado Mecánico Gaming",
+                "referencia": "TG7890",
+                "precio": 90.95,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Ratón Gamer RGB",
+                "referencia": "RG4567",
+                "precio": 45.50,
+                "unidades": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Jorge",
+          "apellidos": "Martínez Díaz",
+          "telefono": "678912345",
+          "direccion": {
+            "calle": "Calle del Prado 19",
+            "ciudad": "Bilbao",
+            "codigoPostal": "48005",
+            "provincia": "Vizcaya"
+          },
+          "correoElectronico": "jorge.martinez@example.com",
+          "fechaInclusion": "2021-02-20"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10014",
+            "fechaCompra": "2021-10-12",
+            "fechaEntrega": "2021-10-17",
+            "totalFactura": 134.75,
+            "productos": [
+              {
+                "nombreProducto": "Set de Pinceles para Acuarela",
+                "referencia": "SPA456",
+                "precio": 22.95,
+                "unidades": 3
+              },
+              {
+                "nombreProducto": "Bloc de Papel Acuarela",
+                "referencia": "BPA789",
+                "precio": 15.95,
+                "unidades": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Miguel",
+          "apellidos": "Ruiz Díaz",
+          "telefono": "699887766",
+          "direccion": {
+            "calle": "Ronda de Segovia 52",
+            "ciudad": "Madrid",
+            "codigoPostal": "28005",
+            "provincia": "Madrid"
+          },
+          "correoElectronico": "miguel.ruiz@example.com",
+          "fechaInclusion": "2021-06-20"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "30013",
+            "fechaCompra": "2021-11-15",
+            "fechaEntrega": "2021-11-20",
+            "totalFactura": 76.80,
+            "productos": [
+              {
+                "nombreProducto": "Funda para móvil",
+                "referencia": "FM6784",
+                "precio": 15.95,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Cargador portátil",
+                "referencia": "CP9087",
+                "precio": 22.95,
+                "unidades": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Miguel Ángel",
+          "apellidos": "Torres Quezada",
+          "telefono": "698745632",
+          "direccion": {
+            "calle": "Avenida de la Constitución 45",
+            "ciudad": "Granada",
+            "codigoPostal": "18014",
+            "provincia": "Granada"
+          },
+          "correoElectronico": "miguel.torres@example.com",
+          "fechaInclusion": "2021-01-05"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "20002",
+            "fechaCompra": "2021-02-10",
+            "fechaEntrega": "2021-02-15",
+            "totalFactura": 95.00,
+            "productos": [
+              {
+                "nombreProducto": "Funda para portátil",
+                "referencia": "FP1234",
+                "precio": 25.00,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Ratón inalámbrico",
+                "referencia": "RI5678",
+                "precio": 45.00,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Diana",
+          "apellidos": "Morales Pineda",
+          "telefono": "688997755",
+          "direccion": {
+            "calle": "Avenida del Parque 33",
+            "ciudad": "Sevilla",
+            "codigoPostal": "41005",
+            "provincia": "Sevilla"
+          },
+          "correoElectronico": "diana.morales@example.com",
+          "fechaInclusion": "2021-05-20"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "20016",
+            "fechaCompra": "2021-06-12",
+            "fechaEntrega": "2021-06-17",
+            "totalFactura": 76.00,
+            "productos": [
+              {
+                "nombreProducto": "Libro 'El arte de no amargarse la vida'",
+                "referencia": "LA1234",
+                "precio": 15.00,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Cuaderno de dibujo",
+                "referencia": "CD5678",
+                "precio": 46.00,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Mónica",
+          "apellidos": "García Santos",
+          "telefono": "664223344",
+          "direccion": {
+            "calle": "Calle de Alcalá 200",
+            "ciudad": "Madrid",
+            "codigoPostal": "28027",
+            "provincia": "Madrid"
+          },
+          "correoElectronico": "monica.garcia@example.com",
+          "fechaInclusion": "2022-06-01"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "50027",
+            "fechaCompra": "2022-06-05",
+            "fechaEntrega": "2022-06-10",
+            "totalFactura": 67.80,
+            "productos": [
+              {
+                "nombreProducto": "Ratón gaming",
+                "referencia": "RG3456",
+                "precio": 33.90,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Teclado mecánico",
+                "referencia": "TM7890",
+                "precio": 33.90,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Antonio",
+          "apellidos": "Ortiz Ramírez",
+          "telefono": "676543211",
+          "direccion": {
+            "calle": "Paseo de Gracia 50",
+            "ciudad": "Barcelona",
+            "codigoPostal": "08007",
+            "provincia": "Barcelona"
+          },
+          "correoElectronico": "antonio.ortiz@example.com",
+          "fechaInclusion": "2022-06-15"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "50028",
+            "fechaCompra": "2022-06-20",
+            "fechaEntrega": "2022-06-25",
+            "totalFactura": 250,
+            "productos": [
+              {
+                "nombreProducto": "Libro de Cocina",
+                "referencia": "LB1234",
+                "precio": 35.50,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Cuchillo de Chef",
+                "referencia": "CU5678",
+                "precio": 49.90,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      }
+      
+    ],
+    "Q4": [
+      {
+        "cliente": {
+          "nombre": "Luisa",
+          "apellidos": "Moreno Pascual",
+          "telefono": "665998877",
+          "direccion": {
+            "calle": "Calle San Vicente 44",
+            "ciudad": "Zaragoza",
+            "codigoPostal": "50004",
+            "provincia": "Zaragoza"
+          },
+          "correoElectronico": "luisa.moreno@example.com",
+          "fechaInclusion": "2022-05-21"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "80032",
+            "fechaCompra": "2022-06-18",
+            "fechaEntrega": "2022-06-23",
+            "totalFactura": 82.00,
+            "productos": [
+              {
+                "nombreProducto": "Bolígrafos de gel",
+                "referencia": "BG7890",
+                "precio": 5.50,
+                "unidades": 5
+              },
+              {
+                "nombreProducto": "Bloc de notas adhesivas",
+                "referencia": "BN3456",
+                "precio": 6.25,
+                "unidades": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Elena",
+          "apellidos": "Navarro Domínguez",
+          "telefono": "644556677",
+          "direccion": {
+            "calle": "Calle del Olimpo 42",
+            "ciudad": "Zaragoza",
+            "codigoPostal": "50004",
+            "provincia": "Zaragoza"
+          },
+          "correoElectronico": "elena.navarro@example.com",
+          "fechaInclusion": "2020-07-15"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "20008",
+            "fechaCompra": "2021-06-20",
+            "fechaEntrega": "2021-06-25",
+            "totalFactura": 85.70,
+            "productos": [
+              {
+                "nombreProducto": "Libreta de notas",
+                "referencia": "LN1234",
+                "precio": 5.95,
+                "unidades": 5
+              },
+              {
+                "nombreProducto": "Bolígrafos de gel",
+                "referencia": "BG5678",
+                "precio": 12.95,
+                "unidades": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Carlos",
+          "apellidos": "Sánchez Pérez",
+          "telefono": "655667788",
+          "direccion": {
+            "calle": "Calle Ficticia 123",
+            "ciudad": "Valencia",
+            "codigoPostal": "46022",
+            "provincia": "Valencia"
+          },
+          "correoElectronico": "carlos.sanchez@example.com",
+          "fechaInclusion": "2021-02-12"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "20009",
+            "fechaCompra": "2021-07-15",
+            "fechaEntrega": "2021-07-20",
+            "totalFactura": 134.45,
+            "productos": [
+              {
+                "nombreProducto": "Auriculares inalámbricos",
+                "referencia": "AI7890",
+                "precio": 65.50,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Altavoz portátil Bluetooth",
+                "referencia": "AP1234",
+                "precio": 68.95,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Raúl",
+          "apellidos": "Jiménez Serrano",
+          "telefono": "677334455",
+          "direccion": {
+            "calle": "Avenida Gran Vía 78",
+            "ciudad": "Vigo",
+            "codigoPostal": "36203",
+            "provincia": "Pontevedra"
+          },
+          "correoElectronico": "raul.jimenez@example.com",
+          "fechaInclusion": "2022-04-30"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "90042",
+            "fechaCompra": "2022-07-05",
+            "fechaEntrega": "2022-07-10",
+            "totalFactura": 199.90,
+            "productos": [
+              {
+                "nombreProducto": "Auriculares Bluetooth",
+                "referencia": "AB9876",
+                "precio": 99.95,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Teclado mecánico gaming",
+                "referencia": "TG5432",
+                "precio": 99.95,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Antonio",
+          "apellidos": "Morales Castillo",
+          "telefono": "667890123",
+          "direccion": {
+            "calle": "Calle Nueva 67",
+            "ciudad": "Málaga",
+            "codigoPostal": "29005",
+            "provincia": "Málaga"
+          },
+          "correoElectronico": "antonio.morales@example.com",
+          "fechaInclusion": "2020-10-15"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "10006",
+            "fechaCompra": "2021-06-20",
+            "fechaEntrega": "2021-06-25",
+            "totalFactura": 89.90,
+            "productos": [
+              {
+                "nombreProducto": "Tetera de Hierro Fundido",
+                "referencia": "THF3210",
+                "precio": 45.95,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Taza de Cerámica",
+                "referencia": "TC7890",
+                "precio": 14.95,
+                "unidades": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Antonio",
+          "apellidos": "López Ruiz",
+          "telefono": "633445566",
+          "direccion": {
+            "calle": "Avenida de Andalucía 28",
+            "ciudad": "Málaga",
+            "codigoPostal": "29007",
+            "provincia": "Málaga"
+          },
+          "correoElectronico": "antonio.lopez@example.com",
+          "fechaInclusion": "2019-04-30"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "20007",
+            "fechaCompra": "2021-05-05",
+            "fechaEntrega": "2021-05-10",
+            "totalFactura": 299.99,
+            "productos": [
+              {
+                "nombreProducto": "Smartwatch deportivo",
+                "referencia": "SD2345",
+                "precio": 199.99,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Cinta de correr plegable",
+                "referencia": "CC6789",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Lucía",
+          "apellidos": "Gómez Martínez",
+          "telefono": "622334455",
+          "direccion": {
+            "calle": "Plaza Nueva 5",
+            "ciudad": "Granada",
+            "codigoPostal": "18005",
+            "provincia": "Granada"
+          },
+          "correoElectronico": "lucia.gomez@example.com",
+          "fechaInclusion": "2020-01-20"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "20006",
+            "fechaCompra": "2021-04-15",
+            "fechaEntrega": "2021-04-20",
+            "totalFactura": 152.00,
+            "productos": [
+              {
+                "nombreProducto": "Funda para móvil",
+                "referencia": "FM1234",
+                "precio": 15.99,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Cargador inalámbrico",
+                "referencia": "CI7890",
+                "precio": 29.95,
+                "unidades": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Jorge",
+          "apellidos": "Navarro López",
+          "telefono": "678910111",
+          "direccion": {
+            "calle": "Calle Nueva 29",
+            "ciudad": "Granada",
+            "codigoPostal": "18005",
+            "provincia": "Granada"
+          },
+          "correoElectronico": "jorge.navarro@example.com",
+          "fechaInclusion": "2021-04-18"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "30011",
+            "fechaCompra": "2021-09-12",
+            "fechaEntrega": "2021-09-17",
+            "totalFactura": 154.20,
+            "productos": [
+              {
+                "nombreProducto": "Taza de cerámica",
+                "referencia": "TC3421",
+                "precio": 12.95,
+                "unidades": 2
+              },
+              {
+                "nombreProducto": "Juego de sábanas 90cm",
+                "referencia": "JS5672",
+                "precio": 45.00,
+                "unidades": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Lucía",
+          "apellidos": "Fernández Martínez",
+          "telefono": "622334455",
+          "direccion": {
+            "calle": "Avenida de Andalucía 43",
+            "ciudad": "Málaga",
+            "codigoPostal": "29007",
+            "provincia": "Málaga"
+          },
+          "correoElectronico": "lucia.fernandez@example.com",
+          "fechaInclusion": "2021-05-06"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "30012",
+            "fechaCompra": "2021-10-22",
+            "fechaEntrega": "2021-10-27",
+            "totalFactura": 210.50,
+            "productos": [
+              {
+                "nombreProducto": "Manta polar",
+                "referencia": "MP9812",
+                "precio": 19.95,
+                "unidades": 3
+              },
+              {
+                "nombreProducto": "Libro electrónico Kindle",
+                "referencia": "LK3456",
+                "precio": 89.95,
+                "unidades": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cliente": {
+          "nombre": "Carmen",
+          "apellidos": "Rodríguez López",
+          "telefono": "688776655",
+          "direccion": {
+            "calle": "Plaza de España 15",
+            "ciudad": "Salamanca",
+            "codigoPostal": "37003",
+            "provincia": "Salamanca"
+          },
+          "correoElectronico": "carmen.rodriguez@example.com",
+          "fechaInclusion": "2022-08-09"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "100053",
+            "fechaCompra": "2022-08-22",
+            "fechaEntrega": "2022-08-27",
+            "totalFactura": 120.00,
+            "productos": [
+              {
+                "nombreProducto": "Estuche de pinturas",
+                "referencia": "EP1122",
+                "precio": 20.00,
+                "unidades": 3
+              },
+              {
+                "nombreProducto": "Set de pinceles",
+                "referencia": "SP3344",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]},
+  
+  "2022": {
+  "Q1": [
+    {
+      "cliente": {
+        "nombre": "Carlos Navarro",
+        "apellidos": "Méndez López",
+        "telefono": "698765432",
+        "direccion": {
+          "calle": "C/ Falsa 123",
+          "ciudad": "Barcelona",
+          "codigoPostal": "08004",
+          "provincia": "Barcelona"
+        },
+        "correoElectronico": "carlos.navarro@example.com",
+        "fechaInclusion": "2019-11-23"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10002",
+          "fechaCompra": "2021-05-05",
+          "fechaEntrega": "2021-05-10",
+          "totalFactura": 85.95,
+          "productos": [
+            {
+              "nombreProducto": "Camiseta algodón",
+              "referencia": "CA7890",
+              "precio": 19.95,
+              "unidades": 3
+            },
+            {
+              "nombreProducto": "Jeans",
+              "referencia": "JE1122",
+              "precio": 45.00,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Jorge",
+        "apellidos": "Martínez Díaz",
+        "telefono": "678912345",
+        "direccion": {
+          "calle": "Calle del Prado 19",
+          "ciudad": "Bilbao",
+          "codigoPostal": "48005",
+          "provincia": "Vizcaya"
+        },
+        "correoElectronico": "jorge.martinez@example.com",
+        "fechaInclusion": "2021-02-20"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10014",
+          "fechaCompra": "2021-10-12",
+          "fechaEntrega": "2021-10-17",
+          "totalFactura": 134.75,
+          "productos": [
+            {
+              "nombreProducto": "Set de Pinceles para Acuarela",
+              "referencia": "SPA456",
+              "precio": 22.95,
+              "unidades": 3
+            },
+            {
+              "nombreProducto": "Bloc de Papel Acuarela",
+              "referencia": "BPA789",
+              "precio": 15.95,
+              "unidades": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Sara",
+        "apellidos": "López Ruiz",
+        "telefono": "665544337",
+        "direccion": {
+          "calle": "Calle de la Industria 10",
+          "ciudad": "Gijón",
+          "codigoPostal": "33201",
+          "provincia": "Asturias"
+        },
+        "correoElectronico": "sara.lopez@example.com",
+        "fechaInclusion": "2022-05-10"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "50025",
+          "fechaCompra": "2022-05-15",
+          "fechaEntrega": "2022-05-20",
+          "totalFactura": 150.00,
+          "productos": [
+            {
+              "nombreProducto": "Cámara digital",
+              "referencia": "CD9876",
+              "precio": 150.00,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Antonio",
+        "apellidos": "Morales Castillo",
+        "telefono": "667890123",
+        "direccion": {
+          "calle": "Calle Nueva 67",
+          "ciudad": "Málaga",
+          "codigoPostal": "29005",
+          "provincia": "Málaga"
+        },
+        "correoElectronico": "antonio.morales@example.com",
+        "fechaInclusion": "2020-10-15"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10006",
+          "fechaCompra": "2021-06-20",
+          "fechaEntrega": "2021-06-25",
+          "totalFactura": 89.90,
+          "productos": [
+            {
+              "nombreProducto": "Tetera de Hierro Fundido",
+              "referencia": "THF3210",
+              "precio": 45.95,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Taza de Cerámica",
+              "referencia": "TC7890",
+              "precio": 14.95,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Carlos",
+        "apellidos": "Jiménez Rojas",
+        "telefono": "698234567",
+        "direccion": {
+          "calle": "Calle de la Luz 45",
+          "ciudad": "Valencia",
+          "codigoPostal": "46003",
+          "provincia": "Valencia"
+        },
+        "correoElectronico": "carlos.jimenez@example.com",
+        "fechaInclusion": "2019-09-22"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10012",
+          "fechaCompra": "2021-08-10",
+          "fechaEntrega": "2021-08-14",
+          "totalFactura": 100.50,
+          "productos": [
+            {
+              "nombreProducto": "Libreta A5 Cuadriculada",
+              "referencia": "LAC789",
+              "precio": 12.50,
+              "unidades": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Diana",
+        "apellidos": "Morales Pineda",
+        "telefono": "688997755",
+        "direccion": {
+          "calle": "Avenida del Parque 33",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41005",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "diana.morales@example.com",
+        "fechaInclusion": "2021-05-20"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "20016",
+          "fechaCompra": "2021-06-12",
+          "fechaEntrega": "2021-06-17",
+          "totalFactura": 76.00,
+          "productos": [
+            {
+              "nombreProducto": "Libro 'El arte de no amargarse la vida'",
+              "referencia": "LA1234",
+              "precio": 15.00,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Cuaderno de dibujo",
+              "referencia": "CD5678",
+              "precio": 46.00,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Elena",
+        "apellidos": "Gutiérrez Lobo",
+        "telefono": "645678123",
+        "direccion": {
+          "calle": "Plaza Mayor 23",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41001",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "elena.gutierrez@example.com",
+        "fechaInclusion": "2020-08-10"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10011",
+          "fechaCompra": "2021-07-15",
+          "fechaEntrega": "2021-07-20",
+          "totalFactura": 153.75,
+          "productos": [
+            {
+              "nombreProducto": "Pack de Calcetines de Algodón",
+              "referencia": "PCA123",
+              "precio": 23.95,
+              "unidades": 3
+            },
+            {
+              "nombreProducto": "Paraguas Automático",
+              "referencia": "PAU456",
+              "precio": 82.85,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Carlos",
+        "apellidos": "Hernández Vega",
+        "telefono": "677889900",
+        "direccion": {
+          "calle": "Calle Sol 22",
+          "ciudad": "Valencia",
+          "codigoPostal": "46002",
+          "provincia": "Valencia"
+        },
+        "correoElectronico": "carlos.hernandez@example.com",
+        "fechaInclusion": "2021-02-14"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "20015",
+          "fechaCompra": "2021-03-10",
+          "fechaEntrega": "2021-03-15",
+          "totalFactura": 132.50,
+          "productos": [
+            {
+              "nombreProducto": "Altavoz Bluetooth",
+              "referencia": "AB1234",
+              "precio": 89.99,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Auriculares inalámbricos",
+              "referencia": "AI5678",
+              "precio": 42.51,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Adriana",
+        "apellidos": "Morales Vega",
+        "telefono": "655544332",
+        "direccion": {
+          "calle": "Paseo de la Reforma 305",
+          "ciudad": "Valencia",
+          "codigoPostal": "46015",
+          "provincia": "Valencia"
+        },
+        "correoElectronico": "adriana.morales@example.com",
+        "fechaInclusion": "2021-08-12"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "40015",
+          "fechaCompra": "2021-03-22",
+          "fechaEntrega": "2021-03-27",
+          "totalFactura": 235.50,
+          "productos": [
+            {
+              "nombreProducto": "Smartwatch deportivo",
+              "referencia": "SD2345",
+              "precio": 199.99,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Correa smartwatch",
+              "referencia": "CS6789",
+              "precio": 35.51,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Javier",
+        "apellidos": "Sánchez Martín",
+        "telefono": "645678901",
+        "direccion": {
+          "calle": "Calle Falsa 123",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41001",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "javier.sanchez@example.com",
+        "fechaInclusion": "2020-08-05"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10004",
+          "fechaCompra": "2021-04-10",
+          "fechaEntrega": "2021-04-15",
+          "totalFactura": 75.90,
+          "productos": [
+            {
+              "nombreProducto": "Tabla de Cortar de Bambú",
+              "referencia": "TCB5432",
+              "precio": 25.90,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Pelador de Verduras",
+              "referencia": "PV8765",
+              "precio": 24.10,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Q2": [
+    {
+      "cliente": {
+        "nombre": "Ana Torres",
+        "apellidos": "García Ruiz",
+        "telefono": "612345678",
+        "direccion": {
+          "calle": "Av. del Libertador 750",
+          "ciudad": "Madrid",
+          "codigoPostal": "28013",
+          "provincia": "Madrid"
+        },
+        "correoElectronico": "ana.torres@example.com",
+        "fechaInclusion": "2020-06-15"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10001",
+          "fechaCompra": "2021-02-10",
+          "fechaEntrega": "2021-02-15",
+          "totalFactura": 120.90,
+          "productos": [
+            {
+              "nombreProducto": "Libro de Cocina",
+              "referencia": "LB1234",
+              "precio": 35.50,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Cuchillo de Chef",
+              "referencia": "CU5678",
+              "precio": 49.90,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Diana",
+        "apellidos": "Ruiz Montes",
+        "telefono": "600112233",
+        "direccion": {
+          "calle": "Calle de la Estrella 22",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41011",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "diana.ruiz@example.com",
+        "fechaInclusion": "2021-12-08"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "40019",
+          "fechaCompra": "2021-07-15",
+          "fechaEntrega": "2021-07-20",
+          "totalFactura": 132.50,
+          "productos": [
+            {
+              "nombreProducto": "Tostadora",
+              "referencia": "TO1234",
+              "precio": 33.25,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Batidora de mano",
+              "referencia": "BM5678",
+              "precio": 66.00,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Fernando",
+        "apellidos": "Gutiérrez Lobo",
+        "telefono": "655443322",
+        "direccion": {
+          "calle": "Plaza Mayor 44",
+          "ciudad": "Zaragoza",
+          "codigoPostal": "50001",
+          "provincia": "Zaragoza"
+        },
+        "correoElectronico": "fernando.gutierrez@example.com",
+        "fechaInclusion": "2021-08-15"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "20017",
+          "fechaCompra": "2021-09-05",
+          "fechaEntrega": "2021-09-10",
+          "totalFactura": 59.70,
+          "productos": [
+            {
+              "nombreProducto": "Estuche de lápices",
+              "referencia": "EL1234",
+              "precio": 12.95,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Agenda 2022",
+              "referencia": "AG5678",
+              "precio": 33.80,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "David",
+        "apellidos": "Martín Galeano",
+        "telefono": "655667788",
+        "direccion": {
+          "calle": "Avenida de la Buhaira 2",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41018",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "david.martin@example.com",
+        "fechaInclusion": "2022-05-22"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "50026",
+          "fechaCompra": "2022-05-25",
+          "fechaEntrega": "2022-05-30",
+          "totalFactura": 85.95,
+          "productos": [
+            {
+              "nombreProducto": "Bolígrafos de gel",
+              "referencia": "BG2345",
+              "precio": 8.95,
+              "unidades": 5
+            },
+            {
+              "nombreProducto": "Agenda 2022",
+              "referencia": "AG6789",
+              "precio": 12.00,
+              "unidades": 3
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "cliente": {
+        "nombre": "Javier",
+        "apellidos": "Sánchez Martín",
+        "telefono": "645678901",
+        "direccion": {
+          "calle": "Calle Falsa 123",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41001",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "javier.sanchez@example.com",
+        "fechaInclusion": "2020-08-05"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10004",
+          "fechaCompra": "2021-04-10",
+          "fechaEntrega": "2021-04-15",
+          "totalFactura": 75.90,
+          "productos": [
+            {
+              "nombreProducto": "Tabla de Cortar de Bambú",
+              "referencia": "TCB5432",
+              "precio": 25.90,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Pelador de Verduras",
+              "referencia": "PV8765",
+              "precio": 24.10,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "cliente": {
+        "nombre": "Laura Martínez",
+        "apellidos": "Sánchez Gómez",
+        "telefono": "654321098",
+        "direccion": {
+          "calle": "Calle Nueva 24",
+          "ciudad": "Valencia",
+          "codigoPostal": "46015",
+          "provincia": "Valencia"
+        },
+        "correoElectronico": "laura.martinez@example.com",
+        "fechaInclusion": "2019-07-21"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10003",
+          "fechaCompra": "2021-04-12",
+          "fechaEntrega": "2021-04-17",
+          "totalFactura": 178.75,
+          "productos": [
+            {
+              "nombreProducto": "Mochila de viaje",
+              "referencia": "MV3456",
+              "precio": 89.95,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Botella de agua reutilizable",
+              "referencia": "BR7890",
+              "precio": 29.95,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+      },
+      {
+        "cliente": {
+          "nombre": "Óscar",
+          "apellidos": "Vega García",
+          "telefono": "655443322",
+          "direccion": {
+            "calle": "Calle de la Luz 5",
+            "ciudad": "Gijón",
+            "codigoPostal": "33201",
+            "provincia": "Asturias"
+          },
+          "correoElectronico": "oscar.vega@example.com",
+          "fechaInclusion": "2022-09-12"
+        },
+        "pedidos": [
+          {
+            "numeroPedido": "110045",
+            "fechaCompra": "2022-09-20",
+            "fechaEntrega": "2022-09-25",
+            "totalFactura": 105.90,
+            "productos": [
+              {
+                "nombreProducto": "Almohada viscoelástica",
+                "referencia": "AV1234",
+                "precio": 35.95,
+                "unidades": 1
+              },
+              {
+                "nombreProducto": "Manta térmica",
+                "referencia": "MT5678",
+                "precio": 69.95,
+                "unidades": 1
+              }
+            ]
+          }
+        ]
+      },      
+    {
+      "cliente": {
+        "nombre": "Isabel",
+        "apellidos": "Fernández Vega",
+        "telefono": "657891234",
+        "direccion": {
+          "calle": "Avenida de América 32",
+          "ciudad": "Granada",
+          "codigoPostal": "18006",
+          "provincia": "Granada"
+        },
+        "correoElectronico": "isabel.fernandez@example.com",
+        "fechaInclusion": "2021-01-05"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10013",
+          "fechaCompra": "2021-09-05",
+          "fechaEntrega": "2021-09-10",
+          "totalFactura": 210.00,
+          "productos": [
+            {
+              "nombreProducto": "Mochila de Senderismo 40L",
+              "referencia": "MSD1012",
+              "precio": 70.00,
+              "unidades": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Antonio",
+        "apellidos": "Morales Castillo",
+        "telefono": "667890123",
+        "direccion": {
+          "calle": "Calle Nueva 67",
+          "ciudad": "Málaga",
+          "codigoPostal": "29005",
+          "provincia": "Málaga"
+        },
+        "correoElectronico": "antonio.morales@example.com",
+        "fechaInclusion": "2020-10-15"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10006",
+          "fechaCompra": "2021-06-20",
+          "fechaEntrega": "2021-06-25",
+          "totalFactura": 89.90,
+          "productos": [
+            {
+              "nombreProducto": "Tetera de Hierro Fundido",
+              "referencia": "THF3210",
+              "precio": 45.95,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Taza de Cerámica",
+              "referencia": "TC7890",
+              "precio": 14.95,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Patricia",
+        "apellidos": "Fernández Núñez",
+        "telefono": "656789012",
+        "direccion": {
+          "calle": "Avenida de América 45",
+          "ciudad": "Valencia",
+          "codigoPostal": "46004",
+          "provincia": "Valencia"
+        },
+        "correoElectronico": "patricia.fernandez@example.com",
+        "fechaInclusion": "2021-02-09"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10005",
+          "fechaCompra": "2021-05-05",
+          "fechaEntrega": "2021-05-10",
+          "totalFactura": 130.75,
+          "productos": [
+            {
+              "nombreProducto": "Báscula de Cocina Digital",
+              "referencia": "BCD2345",
+              "precio": 20.75,
+              "unidades": 3
+            },
+            {
+              "nombreProducto": "Mandolina Ajustable",
+              "referencia": "MA9876",
+              "precio": 69.25,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Q3": [
+    {
+      "cliente": {
+        "nombre": "Marta",
+        "apellidos": "Sánchez López",
+        "telefono": "612345789",
+        "direccion": {
+          "calle": "Ronda de Segovia 33",
+          "ciudad": "Zaragoza",
+          "codigoPostal": "50004",
+          "provincia": "Zaragoza"
+        },
+        "correoElectronico": "marta.sanchez@example.com",
+        "fechaInclusion": "2020-12-01"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10015",
+          "fechaCompra": "2021-11-20",
+          "fechaEntrega": "2021-11-25",
+          "totalFactura": 76.50,
+          "productos": [
+            {
+              "nombreProducto": "Cargador Portátil USB",
+              "referencia": "CPU123",
+              "precio": 25.50,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Auriculares Inalámbricos",
+              "referencia": "AI789",
+              "precio": 25.50,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Patricia",
+        "apellidos": "Fernández Núñez",
+        "telefono": "656789012",
+        "direccion": {
+          "calle": "Avenida de América 45",
+          "ciudad": "Valencia",
+          "codigoPostal": "46004",
+          "provincia": "Valencia"
+        },
+        "correoElectronico": "patricia.fernandez@example.com",
+        "fechaInclusion": "2021-02-09"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10005",
+          "fechaCompra": "2021-05-05",
+          "fechaEntrega": "2021-05-10",
+          "totalFactura": 130.75,
+          "productos": [
+            {
+              "nombreProducto": "Báscula de Cocina Digital",
+              "referencia": "BCD2345",
+              "precio": 20.75,
+              "unidades": 3
+            },
+            {
+              "nombreProducto": "Mandolina Ajustable",
+              "referencia": "MA9876",
+              "precio": 69.25,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Lucía",
+        "apellidos": "Gómez Martínez",
+        "telefono": "622334455",
+        "direccion": {
+          "calle": "Plaza Nueva 5",
+          "ciudad": "Granada",
+          "codigoPostal": "18005",
+          "provincia": "Granada"
+        },
+        "correoElectronico": "lucia.gomez@example.com",
+        "fechaInclusion": "2020-01-20"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "20006",
+          "fechaCompra": "2021-04-15",
+          "fechaEntrega": "2021-04-20",
+          "totalFactura": 152.00,
+          "productos": [
+            {
+              "nombreProducto": "Funda para móvil",
+              "referencia": "FM1234",
+              "precio": 15.99,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Cargador inalámbrico",
+              "referencia": "CI7890",
+              "precio": 29.95,
+              "unidades": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Carlos",
+        "apellidos": "Sánchez Pérez",
+        "telefono": "655667788",
+        "direccion": {
+          "calle": "Calle Ficticia 123",
+          "ciudad": "Valencia",
+          "codigoPostal": "46022",
+          "provincia": "Valencia"
+        },
+        "correoElectronico": "carlos.sanchez@example.com",
+        "fechaInclusion": "2021-02-12"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "20009",
+          "fechaCompra": "2021-07-15",
+          "fechaEntrega": "2021-07-20",
+          "totalFactura": 134.45,
+          "productos": [
+            {
+              "nombreProducto": "Auriculares inalámbricos",
+              "referencia": "AI7890",
+              "precio": 65.50,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Altavoz portátil Bluetooth",
+              "referencia": "AP1234",
+              "precio": 68.95,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Jorge",
+        "apellidos": "Navarro López",
+        "telefono": "678910111",
+        "direccion": {
+          "calle": "Calle Nueva 29",
+          "ciudad": "Granada",
+          "codigoPostal": "18005",
+          "provincia": "Granada"
+        },
+        "correoElectronico": "jorge.navarro@example.com",
+        "fechaInclusion": "2021-04-18"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "30011",
+          "fechaCompra": "2021-09-12",
+          "fechaEntrega": "2021-09-17",
+          "totalFactura": 154.20,
+          "productos": [
+            {
+              "nombreProducto": "Taza de cerámica",
+              "referencia": "TC3421",
+              "precio": 12.95,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Juego de sábanas 90cm",
+              "referencia": "JS5672",
+              "precio": 45.00,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Elena",
+        "apellidos": "Navarro Domínguez",
+        "telefono": "644556677",
+        "direccion": {
+          "calle": "Calle del Olimpo 42",
+          "ciudad": "Zaragoza",
+          "codigoPostal": "50004",
+          "provincia": "Zaragoza"
+        },
+        "correoElectronico": "elena.navarro@example.com",
+        "fechaInclusion": "2020-07-15"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "20008",
+          "fechaCompra": "2021-06-20",
+          "fechaEntrega": "2021-06-25",
+          "totalFactura": 85.70,
+          "productos": [
+            {
+              "nombreProducto": "Libreta de notas",
+              "referencia": "LN1234",
+              "precio": 5.95,
+              "unidades": 5
+            },
+            {
+              "nombreProducto": "Bolígrafos de gel",
+              "referencia": "BG5678",
+              "precio": 12.95,
+              "unidades": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Patricia",
+        "apellidos": "López Guerrero",
+        "telefono": "644556677",
+        "direccion": {
+          "calle": "Camino de los Descubrimientos 11",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41092",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "patricia.lopez@example.com",
+        "fechaInclusion": "2021-07-29"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "30014",
+          "fechaCompra": "2021-12-03",
+          "fechaEntrega": "2021-12-08",
+          "totalFactura": 45.60,
+          "productos": [
+            {
+              "nombreProducto": "Ratón inalámbrico",
+              "referencia": "RI1234",
+              "precio": 22.80,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Teclado Bluetooth",
+              "referencia": "TB5678",
+              "precio": 22.80,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Verónica",
+        "apellidos": "Casas Campo",
+        "telefono": "682334455",
+        "direccion": {
+          "calle": "Calle de la Princesa 30",
+          "ciudad": "Oviedo",
+          "codigoPostal": "33007",
+          "provincia": "Asturias"
+        },
+        "correoElectronico": "veronica.casas@example.com",
+        "fechaInclusion": "2022-07-02"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "50029",
+          "fechaCompra": "2022-07-05",
+          "fechaEntrega": "2022-07-10",
+          "totalFactura": 75.00,
+          "productos": [
+            {
+              "nombreProducto": "Cafetera italiana",
+              "referencia": "CI1234",
+              "precio": 25.00,
+              "unidades": 3
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "cliente": {
+        "nombre": "Marcos",
+        "apellidos": "Garrido León",
+        "telefono": "689112233",
+        "direccion": {
+          "calle": "Plaza de la Constitución 5",
+          "ciudad": "Cádiz",
+          "codigoPostal": "11006",
+          "provincia": "Cádiz"
+        },
+        "correoElectronico": "marcos.garrido@example.com",
+        "fechaInclusion": "2022-07-12"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "50030",
+          "fechaCompra": "2022-07-15",
+          "fechaEntrega": "2022-07-20",
+          "totalFactura": 200.00,
+          "productos": [
+            {
+              "nombreProducto": "Impresora láser",
+              "referencia": "IL2345",
+              "precio": 100.00,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "cliente": {
+        "nombre": "Silvia",
+        "apellidos": "Ramón Casas",
+        "telefono": "696123456",
+        "direccion": {
+          "calle": "Avenida Diagonal 600",
+          "ciudad": "Barcelona",
+          "codigoPostal": "08021",
+          "provincia": "Barcelona"
+        },
+        "correoElectronico": "silvia.ramon@example.com",
+        "fechaInclusion": "2022-07-22"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "50031",
+          "fechaCompra": "2022-08-01",
+          "fechaEntrega": "2022-08-06",
+          "totalFactura": 45.95,
+          "productos": [
+            {
+              "nombreProducto": "Auriculares inalámbricos",
+              "referencia": "AI3456",
+              "precio": 45.95,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    }
+    
+  ],
+  "Q4": [
+    {
+      "cliente": {
+        "nombre": "David",
+        "apellidos": "González Martín",
+        "telefono": "662334455",
+        "direccion": {
+          "calle": "Ronda del Carmen 21",
+          "ciudad": "Córdoba",
+          "codigoPostal": "14003",
+          "provincia": "Córdoba"
+        },
+        "correoElectronico": "david.gonzalez@example.com",
+        "fechaInclusion": "2022-01-15"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "60010",
+          "fechaCompra": "2022-02-12",
+          "fechaEntrega": "2022-02-17",
+          "totalFactura": 98.50,
+          "productos": [
+            {
+              "nombreProducto": "Lámpara de escritorio LED",
+              "referencia": "LE4567",
+              "precio": 23.75,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Agenda 2022",
+              "referencia": "AG8910",
+              "precio": 12.00,
+              "unidades": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Patricia",
+        "apellidos": "López Guerrero",
+        "telefono": "644556677",
+        "direccion": {
+          "calle": "Camino de los Descubrimientos 11",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41092",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "patricia.lopez@example.com",
+        "fechaInclusion": "2021-07-29"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "30014",
+          "fechaCompra": "2021-12-03",
+          "fechaEntrega": "2021-12-08",
+          "totalFactura": 45.60,
+          "productos": [
+            {
+              "nombreProducto": "Ratón inalámbrico",
+              "referencia": "RI1234",
+              "precio": 22.80,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Teclado Bluetooth",
+              "referencia": "TB5678",
+              "precio": 22.80,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Sergio",
+        "apellidos": "Alvarez Gutiérrez",
+        "telefono": "633221100",
+        "direccion": {
+          "calle": "Paseo de la Castellana 200",
+          "ciudad": "Madrid",
+          "codigoPostal": "28046",
+          "provincia": "Madrid"
+        },
+        "correoElectronico": "sergio.alvarez@example.com",
+        "fechaInclusion": "2022-03-05"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "70021",
+          "fechaCompra": "2022-03-10",
+          "fechaEntrega": "2022-03-15",
+          "totalFactura": 134.95,
+          "productos": [
+            {
+              "nombreProducto": "Cámara web HD",
+              "referencia": "CW1234",
+              "precio": 64.99,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Micrófono USB",
+              "referencia": "MU5678",
+              "precio": 69.96,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Elena",
+        "apellidos": "Gómez Castillo",
+        "telefono": "664455667",
+        "direccion": {
+          "calle": "Plaza Mayor 15",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41001",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "elena.gomez@example.com",
+        "fechaInclusion": "2021-03-22"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "30010",
+          "fechaCompra": "2021-08-05",
+          "fechaEntrega": "2021-08-10",
+          "totalFactura": 89.70,
+          "productos": [
+            {
+              "nombreProducto": "Cuaderno A5",
+              "referencia": "CA5123",
+              "precio": 3.95,
+              "unidades": 5
+            },
+            {
+              "nombreProducto": "Pack de marcadores",
+              "referencia": "PM7891",
+              "precio": 7.50,
+              "unidades": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Laura",
+        "apellidos": "Muñoz Herrera",
+        "telefono": "699223344",
+        "direccion": {
+          "calle": "Calle del Prado 10",
+          "ciudad": "Salamanca",
+          "codigoPostal": "37008",
+          "provincia": "Salamanca"
+        },
+        "correoElectronico": "laura.munoz@example.com",
+        "fechaInclusion": "2022-08-05"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "50045",
+          "fechaCompra": "2022-08-10",
+          "fechaEntrega": "2022-08-15",
+          "totalFactura": 220.00,
+          "productos": [
+            {
+              "nombreProducto": "Impresora láser multifunción",
+              "referencia": "ILM6789",
+              "precio": 110.00,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Pack de tóner",
+              "referencia": "PT1234",
+              "precio": 50.00,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Lucía",
+        "apellidos": "Fernández Martínez",
+        "telefono": "622334455",
+        "direccion": {
+          "calle": "Avenida de Andalucía 43",
+          "ciudad": "Málaga",
+          "codigoPostal": "29007",
+          "provincia": "Málaga"
+        },
+        "correoElectronico": "lucia.fernandez@example.com",
+        "fechaInclusion": "2021-05-06"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "30012",
+          "fechaCompra": "2021-10-22",
+          "fechaEntrega": "2021-10-27",
+          "totalFactura": 210.50,
+          "productos": [
+            {
+              "nombreProducto": "Manta polar",
+              "referencia": "MP9812",
+              "precio": 19.95,
+              "unidades": 3
+            },
+            {
+              "nombreProducto": "Libro electrónico Kindle",
+              "referencia": "LK3456",
+              "precio": 89.95,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Miguel",
+        "apellidos": "Ruiz Díaz",
+        "telefono": "699887766",
+        "direccion": {
+          "calle": "Ronda de Segovia 52",
+          "ciudad": "Madrid",
+          "codigoPostal": "28005",
+          "provincia": "Madrid"
+        },
+        "correoElectronico": "miguel.ruiz@example.com",
+        "fechaInclusion": "2021-06-20"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "30013",
+          "fechaCompra": "2021-11-15",
+          "fechaEntrega": "2021-11-20",
+          "totalFactura": 76.80,
+          "productos": [
+            {
+              "nombreProducto": "Funda para móvil",
+              "referencia": "FM6784",
+              "precio": 15.95,
+              "unidades": 2
+            },
+            {
+              "nombreProducto": "Cargador portátil",
+              "referencia": "CP9087",
+              "precio": 22.95,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Elena",
+        "apellidos": "Gutiérrez Lobo",
+        "telefono": "645678123",
+        "direccion": {
+          "calle": "Plaza Mayor 23",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41001",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "elena.gutierrez@example.com",
+        "fechaInclusion": "2020-08-10"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "10011",
+          "fechaCompra": "2021-07-15",
+          "fechaEntrega": "2021-07-20",
+          "totalFactura": 153.75,
+          "productos": [
+            {
+              "nombreProducto": "Pack de Calcetines de Algodón",
+              "referencia": "PCA123",
+              "precio": 23.95,
+              "unidades": 3
+            },
+            {
+              "nombreProducto": "Paraguas Automático",
+              "referencia": "PAU456",
+              "precio": 82.85,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Miguel",
+        "apellidos": "Hernández Silva",
+        "telefono": "611223344",
+        "direccion": {
+          "calle": "Calle de la Industria 12",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41015",
+          "provincia": "Sevilla"
+        },
+        "correoElectronico": "miguel.hernandez@example.com",
+        "fechaInclusion": "2019-09-10"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "20005",
+          "fechaCompra": "2021-03-22",
+          "fechaEntrega": "2021-03-27",
+          "totalFactura": 230.75,
+          "productos": [
+            {
+              "nombreProducto": "Teclado Mecánico Gaming",
+              "referencia": "TG7890",
+              "precio": 90.95,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Ratón Gamer RGB",
+              "referencia": "RG4567",
+              "precio": 45.50,
+              "unidades": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cliente": {
+        "nombre": "Antonio",
+        "apellidos": "López Ruiz",
+        "telefono": "633445566",
+        "direccion": {
+          "calle": "Avenida de Andalucía 28",
+          "ciudad": "Málaga",
+          "codigoPostal": "29007",
+          "provincia": "Málaga"
+        },
+        "correoElectronico": "antonio.lopez@example.com",
+        "fechaInclusion": "2019-04-30"
+      },
+      "pedidos": [
+        {
+          "numeroPedido": "20007",
+          "fechaCompra": "2021-05-05",
+          "fechaEntrega": "2021-05-10",
+          "totalFactura": 299.99,
+          "productos": [
+            {
+              "nombreProducto": "Smartwatch deportivo",
+              "referencia": "SD2345",
+              "precio": 199.99,
+              "unidades": 1
+            },
+            {
+              "nombreProducto": "Cinta de correr plegable",
+              "referencia": "CC6789",
+              "precio": 100.00,
+              "unidades": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  }
+}
